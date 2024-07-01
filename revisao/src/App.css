@@ -1,0 +1,87 @@
+/* Estilo do contêiner do código */
+pre {
+  background-color: #282c34;
+  border: 1px solid #444;
+  border-radius: 4px;
+  padding: 15px;
+  overflow: auto;
+  max-width: 100%;
+  box-sizing: border-box;
+  white-space: pre-wrap; /* Permite quebra de linha para melhor responsividade */
+  word-wrap: break-word; /* Permite quebra de linha em palavras longas */
+}
+
+/* Estilo do texto do código */
+code {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 14px;
+  color: #abb2bf;
+}
+
+/* Destaque para palavras-chave */
+code .keyword {
+  color: #c678dd;
+  font-weight: bold;
+}
+
+/* Estilo da aplicação React */
+.content {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.content h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #333;
+}
+
+.content input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.content button {
+  width: 100%;
+  padding: 10px;
+  background-color: #61dafb;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.content button:hover {
+  background-color: #8200fc;
+}
+
+.endereco p {
+  margin: 5px 0;
+  color: #333;
+}
+
+/* Estilo responsivo */
+@media (max-width: 600px) {
+  .content {
+      padding: 10px;
+  }
+
+  .content h1 {
+      font-size: 20px;
+  }
+
+  .content button {
+      font-size: 14px;
+  }
+}
